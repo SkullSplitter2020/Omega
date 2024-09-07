@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<addon id="repository.skulls" name="[B][COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Repository[/COLOR][/B]" version="1.7.0" provider-name="[COLOR indianred]sKulls[/COLOR] [COLOR gold]inc.[/COLOR]">
+		<extension point="xbmc.addon.repository" name="[COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Repository[/COLOR]">
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/SkullSplitter2020/repository.skulls/repo/repo/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/SkullSplitter2020/repository.skulls/repo/repo/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/SkullSplitter2020/repository.skulls/repo/repo/zips/</datadir>
+				<hashes>false</hashes>
+			</dir>
+		</extension>
+        <extension point="xbmc.addon.metadata">
+        	<summary lang="en_GB">[B][COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Repository[/COLOR][/B] fuer [COLOR teal]KODI 20.x/21.x[/COLOR]!!</summary>
+			<description>
+Die [B][COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Repository[/COLOR][/B] bringt die besten Addons in alle Ecken der Welt!!!
+
+[B][COLOR orange]sKulls-Repository, KEIN VERBOT! KEIN SCHAEDLICHES Skript!! REIN, SAUBER UND EINFACH!!![/COLOR][/B]
+[B][COLOR red]Offizielles sKulls-Repository – Vollstaendige oder teilweise Vervielfaeltigung ohne vorherige Genehmigung verboten[/COLOR][/B]
+[B][COLOR white]Addons aus diesem Repository koennen kostenlos verwendet werden!![/COLOR][/B]
+[B][COLOR firebrick]Der Verkauf der in diesem Repository enthaltenen Add-ons ist verboten[/COLOR][/B]
+			</description>
+			<disclaimer>[B][COLOR orange]sKulls-Repository ist nur ein ADDONS-AGGREGATOR und sammelt und organisiert wie Google.com nur ADDONS VON DRITTANBIETERN. Wir sind nicht verantwortlich fuer die hier gefundenen Dateien.[/COLOR][/B]</disclaimer>
+			<platform>all</platform>
+			<license>GPL-2.0-or-later</license>
+	    	<news>
+[COLOR orange]Fix-Log[/COLOR]
+
+[COLOR gold]*[/COLOR] v1.7.0 – Kompatibilitaet mit Kodi 20.4 Nexus und Kodi 21.1 Omega
+[COLOR green]*[/COLOR] v1.0 – Kompatibilitaet mit Kodi 20.4 Nexus
+[COLOR blue]*[/COLOR] v0.8 – Abhaengigkeitsanpassungen...
+[COLOR red]*[/COLOR]  v0.7 – Abhaengigkeitsanpassungen...
+[COLOR orange]*[/COLOR] v0.6 – Die Installation des Youtube-Plugins wurde geloescht, was in einigen Boxen zu Fehlern fuehrte...
+[COLOR gold]*[/COLOR] v0.5 - Abhaengigkeiten behoben, die bei der Installation des Repositorys auf Kodi Standard zu Fehlern fuehrten.
+		    </news>
+	        <assets>
+           		<icon>icon.png</icon>
+	            <fanart>fanart.jpg</fanart>
+       		</assets>
+        </extension>
+	</addon>
