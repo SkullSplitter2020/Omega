@@ -3721,12 +3721,12 @@ Zattoo Live TV, Aufnahmen und EPG
 		</assets>
 		<news />
 	</extension>
-</addon><addon id="repository.skulls" name="[B][COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Repository[/COLOR][/B]" version="1.8.0" provider-name="[COLOR indianred]sKulls[/COLOR] [COLOR gold]inc.[/COLOR]">
+</addon><addon id="repository.skulls" name="[B][COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Repository[/COLOR][/B]" version="1.9.0" provider-name="[COLOR indianred]sKulls[/COLOR] [COLOR gold]inc.[/COLOR]">
 		<extension point="xbmc.addon.repository" name="[COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Repository[/COLOR]">
 			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/SkullSplitter2020/repository.skulls/repo/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/SkullSplitter2020/repository.skulls/repo/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/SkullSplitter2020/repository.skulls/repo/zips/</datadir>
+				<info compressed="false">https://skullsplitter2020.github.io/Omega/repo/zips/addons.xml</info>
+				<checksum>https://skullsplitter2020.github.io/Omega/repo/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://skullsplitter2020.github.io/Omega/repo/zips/</datadir>
 				<hashes>false</hashes>
 			</dir>
 		</extension>
