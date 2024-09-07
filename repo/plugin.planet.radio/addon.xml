@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.planet.radio" version="3.0.1+matrix" name="Planet Radio" provider-name="MICLIER">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>audio</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Planet Radio</summary>
+  <description lang="en_GB"> </description>
+  <disclaimer lang="en_GB">No warranty</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>resources/images/fanart.jpg</fanart>
+  </assets>
+  <news></news>
+</extension>
+</addon>

@@ -1,0 +1,6 @@
+<settings>
+<category label="Settings">
+	<setting id="sort" type="bool" label="Sort" default="false"/>
+	<setting id="view-mode" type="number" label="View Mode" default="500"/>
+</category>
+</settings>

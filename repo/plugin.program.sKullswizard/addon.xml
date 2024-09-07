@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.sKullswizard" name="[B][COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Wizard[/COLOR][/B]" version="1.7.0" provider-name="[COLOR indianred]sKulls[/COLOR] [COLOR gold]inc.[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[B][COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Wizard[/COLOR][/B]</summary>
+        <description lang="en">[COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Wizard[/COLOR] zum Installieren, Aktualisieren und Warten von sKulls Omega-Builds</description>
+        <platform>all</platform>
+	<license>GNU GENERAL PUBLIC LICENSE Version 3</license>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+		<news>
+1.7.0
+ - weiter BugFixes
+ 1.5.0
+ - Nochmal komplett überarbeitet und Kodi 21 Omega tauglich gemacht
+1.3.0
+ - komplett Überarbeitet und Kodi Nexus Python 3.x kompatibel
+1.1.0
+ - Der Bereich "Erweiterte Einstellungen" unter "Systemoptimierungen/-korrekturen" wurden wieder hinzu gefuegt
+ - Rudimentaere Version des Advanced-Settings-Editors. Derzeit ist nur die Bearbeitung vorab moeglich.
+ - vorhandene Tags unter "Cache" und "Netzwerk".
+ - Konvertierung der advanced.txt in das JSON-Format
+ - "integrierte" advancedsettings.xml-Voreinstellungen wurden hinzu gefuegt
+1.0.3
+ - Bildmaterial aktualisieren
+ - Probleme mit nicht funktionierenden URLs wurden behoben
+ - Problem behoben, bei dem Builds zweimal heruntergeladen wurden
+ - Titelfarbe bei Benachrichtigungen korrigiert
+ - Automatische Repo-Installation behoben
+1.0.2
+ - Absturz im Anmeldemenü behoben
+ - Automatische Installation des Repositorys behoben
+1.0.1
+ - Doppelstart behoben
+ - Wiederholte Build-Eingabeaufforderung behoben
+ - Benachrichtigungs-Timeout behoben
+ - Absturz im Trakt-Menue behoben
+1.0.0
+ - Erster Commit
+		</news>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/screenshots/screenshot01.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot02.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot03.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot04.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot05.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot06.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
