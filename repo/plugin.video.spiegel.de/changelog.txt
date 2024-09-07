@@ -1,0 +1,36 @@
+﻿
+[B]Version 3.0.4+matrix.1  (31.12.2023)[/B]
+- fixed: Nervende Meldung: 'DETAILS - ERROR' wenn nur für wenige Beiträge kein Video vorhanden ist (Fehlermeldung jetzt erst ab mind. 15 Server-Fehlern)
+- fixed: Fehlerhafte Beiträge ohne Video/Audio -Stream werden nicht ausgeblendet
+
+[B]Version 3.0.3+matrix.1  (19.12.2023)[/B]
+- fixed: Sämtliche Ordner können nicht geöffnet werden (Quelltext der Webseite verändert)
+- fixed: Einige Sendungs-Titel haben beim Abspielen ein '[/B]' Symbol am Titelende
+- optimized: Die Symbol-Kennzeichnung von 'Audio-Streams' verursacht bei einigen Skins Darstellungs-Probleme (ersetzt durch anderes Symbol)
+
+[B]Version 3.0.2+matrix.1  (17.09.2023)[/B]
+- fixed: Dynamische Playlisten von 'Der Spiegel' auf Youtube können nicht geöffnet werden (Error Type: class 'json.decoder.JSONDecodeError')
+- fixed: Ausstrahlungsdatum der Sendungen wird manchmal nicht richtig dargestellt
+- fixed: In Kodi Nexus/Omega funktioniert die Sortierung der Episoden nach Datum nicht
+- removed on OMEGA: listitem.setProperty('inputstream.adaptive.manifest_type') = DEPRECATED
+
+[B]Version 3.0.1+matrix.1  (25.06.2023)[/B]
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- Autor bisher @L0RE
+- Ab jetzt übernommen durch @realvito
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- Pluginname changed with this ReRelease (old=plugin.video.tyl0re.spiegeltv -> new=plugin.video.spiegel.de)
+- Komplette Überarbeitung des alten Spiegel.TV-Addons nach Webseitenerneuerung (ReRelease)
+- fixed: Tagline und Autoren der einzelnen Artikel werden nicht angezeigt
+- removed: Rubriken = DER SPIEGEL liest und fragt, Spitzentitel - die Büchershow mit Volker Weidermann, Coronavirus: Videos
+- removed: Festgelegte Rubriken von 'Der Spiegel' auf Youtube
+- added: Rubriken = Russlands Krieg gegen die Ukraine, SPIEGEL Bestseller - Mehr lesen mit Elke Heidenreich
+- added: Podcasts und Audiostreams anzeigen und abspielen (settings)
+- added: Dynamische Playlisten von 'Der Spiegel' auf Youtube immer aktuell
+- added: Anpassungen an Änderungen von KODI-Nexus
+- optimized: Die Themen der Rubrik 'Thema: SPIEGEL TV' zur besseren Übersicht aufgeteilt in separate Ordner
+
+=======================================================================
+
+[B]Version 2.2.0+matrix.1  (25.06.2023)[/B] by realvito
+- last OLDVERSION with Path = plugin.video.tyl0re.spiegeltv (...deprecated)

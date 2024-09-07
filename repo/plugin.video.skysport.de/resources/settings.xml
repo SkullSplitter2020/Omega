@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Allgemein">
+		<setting label="Anmeldung" type="lsep" visible="false" />
+		<setting id="user" type="text" visible="false" label="E-Mail" default="" />
+		<setting id="password" type="text" visible="false" label="Passwort" default="" />
+		<setting id="user_token" type="text" visible="false" label="User-Token" default="" />
+		<setting id="booked_packages" type="text" visible="false" label="Gebuchte Pakete" default="" />
+		<setting id="token_exp" type="text" visible="false" label="Ablaufdatum des User-Token" default="" />
+		<setting id="login" type="action" label="Anmelden" visible="false" action="RunPlugin(plugin://plugin.video.skysport.de/?action=login)" option="close" />
+		<setting id="login_acc" type="text" label="Angemeldet als" visible="false" enable="false" default="" />
+		<setting id="logout" type="action"  label="Abmelden" action="RunPlugin(plugin://plugin.video.skysport.de/?action=logout)" visible="false" option="close" />
+		<setting label="Cache" type="lsep"/>
+		<setting id="clear_cache" type="action" label="Cache leeren" action="RunPlugin(plugin://plugin.video.skysport.de/?action=clearCache)" />
+	</category>
+</settings>

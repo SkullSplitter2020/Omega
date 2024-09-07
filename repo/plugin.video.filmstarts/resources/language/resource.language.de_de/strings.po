@@ -1,0 +1,344 @@
+﻿# Kodi Media Center language file
+# Addon Name: FILMSTARTS.de
+# Addon id: plugin.video.filmstarts
+# Addon Provider: realvito
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: 2020-07-28 22:00+0000\n"
+"PO-Revision-Date: 2024-02-24 17:00+0000\n"
+"Last-Translator: realvito\n"
+"Language-Team: GERMAN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# strings start
+# SETTINGS-CATEGORIES
+
+msgctxt "#30000"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "#30001"
+msgid "Advanced"
+msgstr "Fortgeschritten"
+
+# empty strings from id 30002 to 30109
+# SETTINGS-BUTTONS
+
+msgctxt "#30110"
+msgid "Return to Main menu if more than one Page is displayed"
+msgstr "Zurück zum Hauptmenü bei mehr als einer Seite anzeigen"
+
+msgctxt "#30111"
+msgid "[B][COLOR yellow]Position: [/COLOR][/B]"
+msgstr "[B][COLOR yellow]Position: [/COLOR][/B]"
+
+msgctxt "#30112"
+msgid "Additional Folder entry above the List (Default)"
+msgstr "Zusätzlicher Ordnereintrag oberhalb der Liste (Standard)"
+
+msgctxt "#30113"
+msgid "Additional entry in Context menu"
+msgstr "Zusätzlicher Eintrag im Kontextmenü"
+
+msgctxt "#30114"
+msgid "Next and previous Page display [COLOR yellow](Category: Movies-Startdates)[/COLOR]"
+msgstr "Nächste und vorherige Seite anzeigen [COLOR yellow](Rubrik: Filme-Starttermine)[/COLOR]"
+
+msgctxt "#30115"
+msgid "Use Addon-Fanart as Background"
+msgstr "Addon-Fanart als Hintergrund nutzen"
+
+msgctxt "#30116"
+msgid "Show Addon-Settings in the overview"
+msgstr "Addon-Einstellungen in der Übersicht anzeigen"
+
+msgctxt "#30117"
+msgid "Detailed Addon-Debug (otherwise only Minimal-Log)"
+msgstr "Addon-Debug mit Details (sonst nur Minimal-Log)"
+
+# empty strings from id 30118 to 30229
+# SETTINGS-TITLES
+
+msgctxt "#30230"
+msgid "[B][COLOR ff0099ff]HOME-BUTTON[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]HOME-BUTTON[/COLOR][/B]"
+
+msgctxt "#30231"
+msgid "[B][COLOR ff0099ff]DISPLAY[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]ANZEIGE[/COLOR][/B]"
+
+msgctxt "#30232"
+msgid "[B][COLOR ff0099ff]FANART[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]FANART[/COLOR][/B]"
+
+msgctxt "#30233"
+msgid "[B][COLOR ff0099ff]SETTINGS[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]EINSTELLUNGEN[/COLOR][/B]"
+
+msgctxt "#30234"
+msgid "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
+
+# empty strings from id 30235 to 30349
+# SETTINGS-DESCRIPTIONS
+
+msgctxt "#30350"
+msgid "[COLOR chartreuse]This Button allows you to return [B]directly[/B] to the Main menu of the Addon without having to scroll back to each Page of a List individually.[/COLOR]"
+msgstr "[COLOR chartreuse]Dieser Button ermöglicht es [B]direkt[/B] zum Hauptmenü des Addons zurückzukehren ohne dabei jede aufgerufene Seite einer Liste einzeln zurückblättern zu müssen.[/COLOR]"
+
+# empty strings from id 30351 to 30500
+# WARNING/INFORMATION-MESSAGES-OK
+
+# empty strings from id 30500 to 30520
+# WARNING/INFORMATION-MESSAGES-NOTIFICATION
+
+msgctxt "#30521"
+msgid "FILMSTARTS : [COLOR red]!!! {0:s} - ERROR !!![/COLOR]"
+msgstr "FILMSTARTS : [COLOR red]!!! {0:s} - ERROR !!![/COLOR]"
+
+msgctxt "#30522"
+msgid "[COLOR red]An error has occured, please check *LOG* ![/COLOR]"
+msgstr "[COLOR red]Es ist ein Fehler aufgetreten, bitte *LOG* einsehen ![/COLOR]"
+
+msgctxt "#30523"
+msgid "ERROR = [COLOR red]{0:s} ![/COLOR]"
+msgstr "ERROR = [COLOR red]{0:s} ![/COLOR]"
+
+msgctxt "#30524"
+msgid "[COLOR red]Unfortunately, there are NO entries :[/COLOR]"
+msgstr "[COLOR red]Leider gibt es KEINE Einträge :[/COLOR]"
+
+msgctxt "#30525"
+msgid "[B]≡ [COLOR blue]In this Category[/COLOR] ≡ at Filmstarts[/B]"
+msgstr "[B]≡ [COLOR blue]In dieser Rubrik[/COLOR] ≡ bei Filmstarts[/B]"
+
+msgctxt "#30526"
+msgid "[COLOR red]The requested *VideoLink* does NOT exist ![/COLOR]"
+msgstr "[COLOR red]Der angeforderte *VideoLink* existiert NICHT ![/COLOR]"
+
+# empty strings from id 30527 to 30600
+# PLUGIN-MAIN and SIDEMENU
+# MAINMENU - FOLDER
+
+msgctxt "#30601"
+msgid "[B][COLOR cyan]::: MOVIES :::[/COLOR][/B]"
+msgstr "[B][COLOR cyan]::: FILME :::[/COLOR][/B]"
+
+msgctxt "#30602"
+msgid "..... Trailer"
+msgstr "..... Trailer"
+
+msgctxt "#30603"
+msgid "..... Categories"
+msgstr "..... Kategorien"
+
+msgctxt "#30604"
+msgid "[B][COLOR cyan]::: SERIES :::[/COLOR][/B]"
+msgstr "[B][COLOR cyan]::: SERIEN :::[/COLOR][/B]"
+
+msgctxt "#30605"
+msgid "..... Trailer"
+msgstr "..... Trailer"
+
+msgctxt "#30606"
+msgid "..... Categories"
+msgstr "..... Kategorien"
+
+msgctxt "#30607"
+msgid "Star-Interviews"
+msgstr "Star-Interviews"
+
+msgctxt "#30608"
+msgid "FILMSTARTS Settings"
+msgstr "FILMSTARTS Einstellungen"
+
+# empty strings from id 30609 to 30620
+# TRAILER - FOLDER
+
+msgctxt "#30621"
+msgid "Most popular Trailer"
+msgstr "Beliebteste Trailer"
+
+msgctxt "#30622"
+msgid "Now in Cinema"
+msgstr "Aktuell im Kino"
+
+msgctxt "#30623"
+msgid "Commic soon to Cinema"
+msgstr "Demnächst im Kino"
+
+msgctxt "#30624"
+msgid "New Movie-Trailer"
+msgstr "Neue Film-Trailer"
+
+msgctxt "#30625"
+msgid "Trailer-Archive"
+msgstr "Trailer-Archiv"
+
+msgctxt "#30626"
+msgid "Upcoming Series"
+msgstr "Kommende Serien"
+
+msgctxt "#30627"
+msgid "Upcoming Seasons"
+msgstr "Kommende Staffeln"
+
+msgctxt "#30628"
+msgid "New Series-Trailer"
+msgstr "Neue Serien-Trailer"
+
+# empty strings from id 30629 to 30630
+# MOVIE - FOLDER
+
+msgctxt "#30631"
+msgid "Pre-premiere in Cinema"
+msgstr "Vorpremieren im Kino"
+
+msgctxt "#30632"
+msgid "Current Cinema Movies"
+msgstr "Aktuelle Kinofilme"
+
+msgctxt "#30633"
+msgid "New Movies this week in Cinema"
+msgstr "Neustart der Woche im Kino"
+
+msgctxt "#30634"
+msgid "Best voted Cinema Movies"
+msgstr "Die bestbewerteten Kinofilme"
+
+msgctxt "#30635"
+msgid "Start dates per Week"
+msgstr "Starttermine nach Wochen"
+
+msgctxt "#30636"
+msgid "Movies sorted by user rating"
+msgstr "Filme sortiert nach User-Wertung"
+
+msgctxt "#30637"
+msgid "Movies sorted by popularity"
+msgstr "Filme sortiert nach Beliebtheit"
+
+# empty strings from id 30638 to 30640
+# SERIES - FOLDER
+
+msgctxt "#30641"
+msgid "Most liked Series"
+msgstr "Die beliebtesten Serien"
+
+msgctxt "#30642"
+msgid "Best voted Series"
+msgstr "Die bestbewerteten Serien"
+
+msgctxt "#30643"
+msgid "Most popular Series"
+msgstr "Die populärsten Serien"
+
+msgctxt "#30644"
+msgid "Most expected new Seasons"
+msgstr "Meisterwartete neue Staffeln"
+
+msgctxt "#30645"
+msgid "New Seasons: TV or ONLINE"
+msgstr "Neue Staffeln: TV oder ONLINE"
+
+msgctxt "#30646"
+msgid "Upcoming Seasons: TV or ONLINE"
+msgstr "Kommende Staffeln: TV oder ONLINE"
+
+msgctxt "#30647"
+msgid "New started Series"
+msgstr "Neu gestartete Serien"
+
+msgctxt "#30648"
+msgid "Series-Archive"
+msgstr "Serien-Archiv"
+
+# empty strings from id 30649 to 30649
+
+msgctxt "#30650"
+msgid "[I][B][COLOR cyan]<<< Back to the Main-menu[/COLOR][/B][/I]"
+msgstr "[I][B][COLOR cyan]<<< Zurück zum Hauptmenü[/COLOR][/B][/I]"
+
+msgctxt "#30654"
+msgid "[COLOR yellow]Add to Playlist-FILMSTARTS ...[/COLOR]"
+msgstr "[COLOR yellow]Zu Abspielliste-FILMSTARTS hinzufügen ...[/COLOR]"
+
+# empty strings from id 30655 to 30800
+# FILTER - FOLDER
+
+msgctxt "#30801"
+msgid "Filter by Genre"
+msgstr "Filter nach Genre"
+
+msgctxt "#30802"
+msgid "Filter by Language"
+msgstr "Filter nach Sprache"
+
+msgctxt "#30803"
+msgid "Filter by Format"
+msgstr "Filter nach Format"
+
+msgctxt "#30804"
+msgid "Filter by Years"
+msgstr "Filter nach Jahren"
+
+msgctxt "#30805"
+msgid "Filter by Countries"
+msgstr "Filter nach Ländern"
+
+msgctxt "#30806"
+msgid "[B][COLOR chartreuse]•  •  •  [/COLOR]Show Results[COLOR chartreuse]  •  •  •[/COLOR][/B]"
+msgstr "[B][COLOR chartreuse]•  •  •  [/COLOR]Ergebnisse anzeigen[COLOR chartreuse]  •  •  •[/COLOR][/B]"
+
+# empty strings from id 30807 to 30830
+# for REST OF ALL
+
+msgctxt "#30831"
+msgid "   [B][COLOR yellow]({0:s})[/COLOR][/B]"
+msgstr "   [B][COLOR yellow]({0:s})[/COLOR][/B]"
+
+msgctxt "#30832"
+msgid "[I][B][COLOR lime]{0:s} ~ actual[/COLOR][/B][/I]"
+msgstr "[I][B][COLOR lime]{0:s} ~ aktuell[/COLOR][/B][/I]"
+
+msgctxt "#30833"
+msgid "[B][COLOR orange]<<< Back to the Main-menu <<<[/COLOR][/B]"
+msgstr "[B][COLOR orange]<<< Zurück zum Hauptmenü <<<[/COLOR][/B]"
+
+msgctxt "#30834"
+msgid "[CR][CR][COLOR gold]{0:s}[/COLOR]"
+msgstr "[CR][CR][COLOR gold]{0:s}[/COLOR]"
+
+msgctxt "#30835"
+msgid "without age restriction"
+msgstr "ohne Altersbeschränkung"
+
+msgctxt "#30836"
+msgid "{0:s}  [COLOR orangered][NO TRAILER][/COLOR]"
+msgstr "{0:s}  [COLOR orangered][KEIN TRAILER][/COLOR]"
+
+msgctxt "#30837"
+msgid "Production: [B][COLOR chartreuse]{0:s}[/COLOR][/B][CR]"
+msgstr "Produktion: [B][COLOR chartreuse]{0:s}[/COLOR][/B][CR]"
+
+msgctxt "#30838"
+msgid "Startdate: [B][COLOR gold]{0:s}[/COLOR][/B][CR][CR]"
+msgstr "Starttermin: [B][COLOR gold]{0:s}[/COLOR][/B][CR][CR]"
+
+msgctxt "#30839"
+msgid "[COLOR chartreuse]>>>[/COLOR] Next Date ({0:s}) [COLOR chartreuse]>>>[/COLOR]"
+msgstr "[COLOR chartreuse]>>>[/COLOR] Nächstes Datum ({0:s}) [COLOR chartreuse]>>>[/COLOR]"
+
+msgctxt "#30840"
+msgid "[COLOR chartreuse]<<<[/COLOR] Previous Date ({0:s}) [COLOR chartreuse]<<<[/COLOR]"
+msgstr "[COLOR chartreuse]<<<[/COLOR] Vorheriges Datum ({0:s}) [COLOR chartreuse]<<<[/COLOR]"
+
+msgctxt "#30841"
+msgid "[COLOR lime]Next Page ({0:d})  >>>[/COLOR]"
+msgstr "[COLOR lime]Nächste Seite ({0:d})  >>>[/COLOR]"

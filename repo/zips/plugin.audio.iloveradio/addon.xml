@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+    id="plugin.audio.iloveradio"
+    name="[COLOR white]I[/COLOR] [COLOR red]Love[/COLOR] [COLOR white]Radio[/COLOR]"
+    version="1.0.13" 
+    provider-name="SGK, SH Germania">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>[COLOR white]I[/COLOR] [COLOR red]Love[/COLOR] [COLOR white]Radio[/COLOR]</summary>
+		<description>
+[COLOR yellow]I Love Radio - Webstreams[/COLOR]
+[COLOR yellow]Source:[/COLOR]
+http://www.iloveradio.de/
+[COLOR yellow]Created by:[/COLOR]
+SGK, SH Germania
+[COLOR yellow]Support:[/COLOR]
+https://www.facebook.com/groups/kodiunlimited/
+https://www.facebook.com/groups/hskde/</description>
+		<license></license>
+		<language></language>	
+		<source></source>
+		<email></email>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>

@@ -1,0 +1,16 @@
+Release v 2.0.0
+public_repo 18.11.2017
+
+Version 2.0.3
+Allgemeine Aenderungen 08.12.2018
+
+Version 2.0.4
+Automatisierung - DANKE LOKI1979 ;-)
+
+Version 20.0 
+27.07.2022 Angepasst an Kodi 20 Alpha 2 - Danke LOKI1979
+
+
+Kodiman
+Website: http://kodiman.company
+Mail: ungatonga@t-online.de

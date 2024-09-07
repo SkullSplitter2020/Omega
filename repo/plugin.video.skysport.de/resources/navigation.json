@@ -1,0 +1,63 @@
+[
+	{
+		"label": "Formel 1",
+		"path": "formel1/videos"
+	},
+	{
+		"label": "Fu\u00dfball",
+		"path": "fussball",
+		"action": "listSubnavi",
+		"children": [
+			{
+				"label": "Videos",
+				"path": "fussball/videos",
+				"action": "showVideos",
+				"show_videos": "false"
+			},
+			{
+				"label": "Ligen und Wettbewerbe",
+				"path": "fussball/ligen-wettbewerbe",
+				"action": "listSubnavi",
+				"includes": [
+					"/bundesliga",
+					"/2-bundesliga",
+					"/3-liga",
+					"/frauen-bundesliga",
+					"/dfb-pokal",
+					"/uefa-champions-league",
+					"/uefa-europa-league",
+					"/premier-league"
+				]
+			}
+		]
+	},
+	{
+		"label": "Golf",
+		"path": "golf/videos"
+	},
+	{
+		"label": "Handball",
+		"path": "handball",
+		"action": "listSubnavi",
+		"children": [
+			{
+				"label": "Videos",
+				"path": "handball/videos",
+				"action": "showVideos",
+				"show_videos": "false"
+			},
+			{
+				"label": "Bundesliga",
+				"path": "handball/dkb-bundesliga/videos"
+			},
+			{
+				"label": "Champions League",
+				"path": "handball/velux-ehf-champions-league/videos"
+			}
+		]
+	},
+	{
+		"label": "Tennis",
+		"path": "tennis/videos"
+	}
+]

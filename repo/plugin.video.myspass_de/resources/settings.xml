@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" ?>
+<settings version="1">
+	<section id="plugin.video.myspass_de">
+		<category id="allgemein" label="30000" help="">
+			<group id="1" label="30230">
+				<setting id="useThumbAsFanart" type="boolean" label="30110" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
+			</group>
+			<group id="2"/>
+			<group id="3" label="30231">
+				<setting id="show_settings" type="boolean" label="30111" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
+			</group>
+			<group id="4"/>
+			<group id="5" label="30232">
+				<setting id="enableDebug" type="boolean" label="30112" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

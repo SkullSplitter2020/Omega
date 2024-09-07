@@ -1,0 +1,283 @@
+﻿# Kodi Media Center language file
+# Addon Name: DER SPIEGEL
+# Addon id: plugin.video.spiegel.de
+# Addon Provider: realvito
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: 2023-06-24 18:00+0000\n"
+"PO-Revision-Date: 2023-12-19 10:00+0000\n"
+"Last-Translator: realvito\n"
+"Language-Team: GERMAN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# strings start
+# SETTINGS-CATEGORIES
+
+msgctxt "#30000"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "#30001"
+msgid "Playback"
+msgstr "Wiedergabe"
+
+msgctxt "#30002"
+msgid "Advanced"
+msgstr "Fortgeschritten"
+
+# empty strings from id 30003 to 30109
+# SETTINGS-BUTTONS
+
+msgctxt "#30110"
+msgid "Max. listed pages of a Category [COLOR yellow](time consuming)[/COLOR]"
+msgstr "Max. gelistete Seiten einer Kategorie [COLOR yellow](zeitaufwendig)[/COLOR]"
+
+msgctxt "#30111"
+msgid "Show further Articles on Youtube [COLOR yellow](via Youtube-Addon)[/COLOR]"
+msgstr "Weitere Beiträge auf YOUTUBE anzeigen [COLOR yellow](über Youtube-Addon)[/COLOR]"
+
+msgctxt "#30112"
+msgid "Use Thumb as Background-Fanart"
+msgstr "Thumb als Hintergrund-Fanart nutzen"
+
+msgctxt "#30113"
+msgid "Also show Podcasts and Audio-Streams  [COLOR yellow](mp3)[/COLOR]"
+msgstr "Auch Podcasts und Audio-Streams anzeigen  [COLOR yellow](mp3)[/COLOR]"
+
+msgctxt "#30114"
+msgid "Play HLS-Videos with [COLOR yellow]*Inputstream.Adaptive*[/COLOR]"
+msgstr "HLS-Videos mit [COLOR yellow]*Inputstream.Adaptive*[/COLOR] abspielen"
+
+msgctxt "#30115"
+msgid "Preferred video file format  [COLOR yellow](m3u8|mp4)[/COLOR]"
+msgstr "Bevorzugtes Video-Dateiformat  [COLOR yellow](m3u8|mp4)[/COLOR]"
+
+msgctxt "#30116"
+msgid "Preferred quality in mode  [COLOR yellow](mp4)[/COLOR]"
+msgstr "Bevorzugte Qualität im Modus  [COLOR yellow](mp4)[/COLOR]"
+
+msgctxt "#30117"
+msgid "Show Addon-Settings in the overview"
+msgstr "Addon-Einstellungen in der Übersicht anzeigen"
+
+msgctxt "#30118"
+msgid "Detailed Addon-Debug (otherwise only Minimal-Log)"
+msgstr "Addon-Debug mit Details (sonst nur Minimal-Log)"
+
+# empty strings from id 30119 to 30154
+
+msgctxt "#30155"
+msgid "HD Quality - 1080p"
+msgstr "HD Qualität - 1080p"
+
+msgctxt "#30156"
+msgid "HD Quality - 720p"
+msgstr "HD Qualität - 720p"
+
+msgctxt "#30157"
+msgid "Good Quality - 576p"
+msgstr "Gute Qualität - 576p"
+
+msgctxt "#30158"
+msgid "Quality - 360p"
+msgstr "Qualität - 360p"
+
+# empty strings from id 30159 to 30229
+# SETTINGS-TITLES
+
+msgctxt "#30230"
+msgid "[B][COLOR ff0099ff]FOLDER[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]ORDNER[/COLOR][/B]"
+
+msgctxt "#30231"
+msgid "[B][COLOR ff0099ff]CATEGORIES[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]KATEGORIEN[/COLOR][/B]"
+
+msgctxt "#30232"
+msgid "[B][COLOR ff0099ff]FANART[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]FANART[/COLOR][/B]"
+
+msgctxt "#30233"
+msgid "[B][COLOR ff0099ff]AUDIO[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]AUDIO[/COLOR][/B]"
+
+msgctxt "#30234"
+msgid "[B][COLOR ff0099ff]PLAYBACK/QUALITY[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]WIEDERGABE/QUALITÄT[/COLOR][/B]"
+
+msgctxt "#30235"
+msgid "[B][COLOR ff0099ff]SETTINGS[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]EINSTELLUNGEN[/COLOR][/B]"
+
+msgctxt "#30236"
+msgid "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
+
+# empty strings from id 30237 to 30350
+# SETTINGS-DESCRIPTIONS
+
+msgctxt "#30350"
+msgid "* [COLOR orange]Only works if more than one Videofile is available ![/COLOR] *"
+msgstr "* [COLOR orange]Funktioniert nur wenn mehr als eine Videodatei zur Verfügung steht ![/COLOR] *"
+
+#empty strings from id 30351 to 30500
+# WARNING/INFORMATION-MESSAGES-OK
+
+msgctxt "#30501"
+msgid "[COLOR orangered]ATTENTION : ... the required addon *[/COLOR][COLOR yellow]{0:s}[/COLOR][COLOR orangered]* is NOT installed !!![/COLOR]"
+msgstr "[COLOR orangered]ACHTUNG : ... das benötigte Addon *[/COLOR][COLOR yellow]{0:s}[/COLOR][COLOR orangered]* ist NICHT installiert !!![/COLOR]"
+
+msgctxt "#30502"
+msgid "[COLOR orangered]ATTENTION : ... the required addon *[/COLOR][COLOR yellow]{0:s}[/COLOR][COLOR orangered]* can NOT be activated automatically !!![/COLOR]"
+msgstr "[COLOR orangered]ACHTUNG : ... das benötigte Addon *[/COLOR][COLOR yellow]{0:s}[/COLOR][COLOR orangered]* kann NICHT automatisch aktiviert werden !!![/COLOR]"
+
+# empty strings from id 30503 to 30520
+# WARNING/INFORMATION-MESSAGES-NOTIFICATION
+
+msgctxt "#30521"
+msgid "DER SPIEGEL : [COLOR red]!!! {0:s} - ERROR !!![/COLOR]"
+msgstr "DER SPIEGEL : [COLOR red]!!! {0:s} - ERROR !!![/COLOR]"
+
+msgctxt "#30522"
+msgid "[COLOR red]An error has occured, please check *LOG* ![/COLOR]"
+msgstr "[COLOR red]Es ist ein Fehler aufgetreten, bitte *LOG* einsehen ![/COLOR]"
+
+msgctxt "#30523"
+msgid "ERROR = [COLOR red]{0:s} ![/COLOR]"
+msgstr "ERROR = [COLOR red]{0:s} ![/COLOR]"
+
+msgctxt "#30524"
+msgid "[COLOR red]Required additional Data could NOT be resolved (LOG) ![/COLOR]"
+msgstr "[COLOR red]Erforderliche Zusatzdaten konnten NICHT aufgelöst werden (LOG) ![/COLOR]"
+
+msgctxt "#30525"
+msgid "[COLOR red]Currently NO videos in :[/COLOR]"
+msgstr "[COLOR red]Zurzeit KEINE Videos in :[/COLOR]"
+
+msgctxt "#30526"
+msgid "* [COLOR blue]{0:s}[/COLOR] * at spiegel.de"
+msgstr "* [COLOR blue]{0:s}[/COLOR] * bei spiegel.de"
+
+msgctxt "#30527"
+msgid "[COLOR red]The requested *VideoLink* does NOT exist ![/COLOR]"
+msgstr "[COLOR red]Der angeforderte *VideoLink* existiert NICHT ![/COLOR]"
+
+# empty strings from id 30528 to 30600
+# PLUGIN-MAIN and SIDEMENU
+# SPIEGEL.DE ENTRIES - FOLDER
+
+msgctxt "#30601"
+msgid "Overview Videos"
+msgstr "Übersicht Videos"
+
+msgctxt "#30602"
+msgid "Theme: SPIEGEL TV"
+msgstr "Thema: SPIEGEL TV"
+
+msgctxt "#30603"
+msgid "Panorama"
+msgstr "Panorama"
+
+msgctxt "#30604"
+msgid "Politics abroad"
+msgstr "Politik Ausland"
+
+msgctxt "#30605"
+msgid "Russia's war against Ukraine"
+msgstr "Russlands Krieg gegen die Ukraine"
+
+msgctxt "#30606"
+msgid "Politics Germany"
+msgstr "Politik Deutschland"
+
+msgctxt "#30607"
+msgid "Spitzengespräch - the Talk with Markus Feldenkirchen"
+msgstr "Spitzengespräch - der Talk mit Markus Feldenkirchen"
+
+msgctxt "#30608"
+msgid "SPIEGEL Bestseller - Read more with Elke Heidenreich"
+msgstr "SPIEGEL Bestseller - Mehr lesen mit Elke Heidenreich"
+
+msgctxt "#30609"
+msgid "We go for a spin - Car tests"
+msgstr "Wir drehen eine Runde - Autotests"
+
+msgctxt "#30610"
+msgid "[COLOR lime]• • • Further Articles on YOUTUBE  • • •[/COLOR]"
+msgstr "[COLOR lime]• • • Weitere Beiträge auf YOUTUBE • • •[/COLOR]"
+
+msgctxt "#30611"
+msgid "DER SPIEGEL Settings"
+msgstr "DER SPIEGEL Einstellungen"
+
+msgctxt "#30612"
+msgid "Inputstream Settings"
+msgstr "Inputstream Einstellungen"
+
+# empty strings from id 30613 to 30620
+# SPIEGEL.TV ENTRIES - FOLDER
+
+msgctxt "#30621"
+msgid "SPIEGEL TV - Magazine"
+msgstr "SPIEGEL TV - Magazin"
+
+msgctxt "#30622"
+msgid "SPIEGEL TV - Report"
+msgstr "SPIEGEL TV - Reportage"
+
+msgctxt "#30623"
+msgid "SPIEGEL TV for ARTE Re:"
+msgstr "SPIEGEL TV für ARTE Re:"
+
+msgctxt "#30624"
+msgid "SPIEGEL TV - Classics"
+msgstr "SPIEGEL TV - Klassiker"
+
+msgctxt "#30625"
+msgid "SPIEGEL TV - True Crime"
+msgstr "SPIEGEL TV - True Crime"
+
+msgctxt "#30626"
+msgid "SPIEGEL TV - Under interrogation"
+msgstr "SPIEGEL TV - Im Verhör"
+
+# empty strings from id 30627 to 30630
+# YOUTUBE ENTRIES - FOLDER
+
+msgctxt "#30631"
+msgid "YT [COLOR deepskyblue]•[/COLOR] New Uploads"
+msgstr "YT [COLOR deepskyblue]•[/COLOR] Neue Uploads"
+
+msgctxt "#30632"
+msgid "YT [COLOR deepskyblue]•[/COLOR] {0:s}   [B][COLOR yellow]({1:s})[/COLOR][/B]"
+msgstr "YT [COLOR deepskyblue]•[/COLOR] {0:s}   [B][COLOR yellow]({1:s})[/COLOR][/B]"
+
+msgctxt "#30633"
+msgid "YT [COLOR deepskyblue]•[/COLOR] {0:s}"
+msgstr "YT [COLOR deepskyblue]•[/COLOR] {0:s}"
+
+# empty strings from id 30634 to 30640
+
+msgctxt "#30641"
+msgid "[COLOR deepskyblue]{0:s}[/COLOR][CR]"
+msgstr "[COLOR deepskyblue]{0:s}[/COLOR][CR]"
+
+msgctxt "#30642"
+msgid "Published: [COLOR chartreuse]{0:s}[/COLOR][CR][B][COLOR gold]♫ AUDIO ♫[/COLOR][/B][CR]"
+msgstr "Veröffentlicht: [COLOR chartreuse]{0:s}[/COLOR][CR][B][COLOR gold]♫ AUDIO ♫[/COLOR][/B][CR]"
+
+msgctxt "#30643"
+msgid "Published: [COLOR chartreuse]{0:s}[/COLOR][CR]"
+msgstr "Veröffentlicht: [COLOR chartreuse]{0:s}[/COLOR][CR]"
+
+# empty strings from id 30644 to 30653
+
+msgctxt "#30654"
+msgid "[COLOR yellow]Add to SPIEGEL-Playlist[/COLOR]"
+msgstr "[COLOR yellow]In SPIEGEL-Abspielliste einreihen[/COLOR]"

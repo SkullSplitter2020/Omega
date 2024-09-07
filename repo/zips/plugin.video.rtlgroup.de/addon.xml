@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="plugin.video.rtlgroup.de" name="RTLPLUS - NW" version="1.2.2+matrix.1" provider-name="realvito">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.27.0"/>
+		<import addon="script.common.plugin.cache" version="2.6.2+matrix.1"/>
+		<import addon="inputstream.adaptive" version="2.4.8"/>
+		<import addon="script.module.inputstreamhelper" version="0.5.5+matrix.1"/>
+		<import addon="service.cron.autobiblio" version="2.1.2+matrix.1" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Streamingdienst von RTL+ in Deutschland</summary>
+		<summary lang="en_GB">Streamingservice of RTL+ in Germany</summary>
+		<description lang="de_DE">Bei RTL+ (DE) Serien, Shows und Filme online streamen. Schau dir komplette Serien an, fiebere bei deinen liebsten Daily-Soaps mit oder staune bei spannenden Dokumentationen - alles wann und wo du willst auf Abruf.[CR]Viele Inhalte aus dem TV Programm siehst du bei RTL+ sogar schon vor TV-Aussstrahlung !</description>
+		<description lang="en_GB">Stream series, shows and movies online with RTL+ (DE). Watch complete series, enjoy your favorite daily soap operas or marvel at exciting documentaries - all when and where you want on demand.[CR]You can even see a lot of content from the TV program on RTL+ before it is broadcast on TV!</description>
+		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en_GB">The content displayed by this Addon is not hosted or distributed by the creators of the Addon, nor do the creators have any affiliation with the providers of the content.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+		<forum>https://www.kodinerds.net/thread/55451-l0res-blog-realvitos-fixing-thread/</forum>
+		<website>https://plus.rtl.de</website>
+		<email></email>
+		<mainsource>https://github.com/Collabsvito/REpo-AiO/</mainsource>
+		<source>https://github.com/Collabsvito/REpo-AiO/tree/master/MATRIX/plugin.video.rtlgroup.de</source>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+		</assets>
+		<news>
+[B][COLOR orangered]Version 1.2.2+matrix.1  (26.05.2024)[/COLOR][/B]
+- fixed: Vereinzelt tritt beim autom. Aktualisieren der KODI-Bibliothek für gespeicherte Episoden/Filme dieses Addons ein OS-Fehler auf (Folder not found)
+		</news>
+	</extension>
+</addon>

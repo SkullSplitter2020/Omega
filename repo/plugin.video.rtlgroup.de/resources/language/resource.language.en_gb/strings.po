@@ -1,0 +1,564 @@
+﻿# Kodi Media Center language file
+# Addon Name: RTLPLUS - NW
+# Addon id: plugin.video.rtlgroup.de
+# Addon Provider: realvito
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: 2021-06-30 10:00+0000\n"
+"PO-Revision-Date: 2023-12-29 07:00+0000\n"
+"Last-Translator: realvito\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# strings start
+# SETTINGS-CATEGORIES
+
+msgctxt "#30000"
+msgid "Account"
+msgstr ""
+
+msgctxt "#30001"
+msgid "General"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Media Library"
+msgstr ""
+
+# empty strings from id 30004 to 30109
+# SETTINGS-BUTTONS
+# FOLDER - Account
+
+msgctxt "#30110"
+msgid "[B]Username (E-Mail)[/B]"
+msgstr ""
+
+msgctxt "#30111"
+msgid "[B]Password[/B]"
+msgstr ""
+
+msgctxt "#30112"
+msgid "[B][COLOR chartreuse]<<<>>> LOG IN + ENTER LOGIN DATA <<<>>>[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30113"
+msgid "[B][COLOR orangered]<<<>>> LOGOUT (Free+Premium) + DELETE DATA <<<>>>[/COLOR][/B]"
+msgstr ""
+
+# empty strings from id 30114 to 30129
+# FOLDER - General
+
+msgctxt "#30130"
+msgid "Websites-Cache storage  (in hours)"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Preferred Videoquality [COLOR yellow](for Premium-Customers)[/COLOR]"
+msgstr ""
+
+msgctxt "#30132"
+msgid "Display of Series subfolders [COLOR yellow](Season<>Year)[/COLOR]"
+msgstr ""
+
+msgctxt "#30133"
+msgid "Basically only show the YEARS"
+msgstr ""
+
+msgctxt "#30134"
+msgid "Automatic switching between SEASON and YEAR (Default)"
+msgstr ""
+
+msgctxt "#30135"
+msgid "Sorting of Year resp. Season"
+msgstr ""
+
+msgctxt "#30136"
+msgid "Show highest Year or Seasonnumber at the top"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Show lowest Year- or Seasonnumber at the top"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Special labelling of MOVIES resp. SPECIALS [COLOR yellow](italics)[/COLOR]"
+msgstr ""
+
+msgctxt "#30139"
+msgid "Show broadcast date in programme title"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Use Serie as Episodes-Fanart"
+msgstr ""
+
+# empty strings from id 30141 to 30159
+# FOLDER - Advanced
+
+msgctxt "#30160"
+msgid "[COLOR orange]Show only freely available Content (Payfree)[/COLOR]"
+msgstr ""
+
+msgctxt "#30161"
+msgid "Activate SSL certificate check"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Check Widevine -Status and -Installation regularly"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Show Addon-Settings in the overview"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Detailed Addon-Debug (otherwise only Minimal-Log)"
+msgstr ""
+
+# empty strings from id 30165 to 30179
+# FOLDER - Media Library
+
+msgctxt "#30180"
+msgid "Activate RTLPLUS-Media-Library"
+msgstr ""
+
+msgctxt "#30181"
+msgid "RTLPLUS-Media-Folder (for .strm- and .nfo- Files)"
+msgstr ""
+
+msgctxt "#30182"
+msgid "Create subfolder [COLOR yellow]* Series|Movies *[/COLOR] in the Media-Folder"
+msgstr ""
+
+msgctxt "#30183"
+msgid "Actualisation of the RTLPLUS-Library (in Hours)"
+msgstr ""
+
+# empty strings from id 30184 to 30249
+# SETTINGS-TITLES
+
+msgctxt "#30250"
+msgid "[B][COLOR FF0099FF]RTL+ ACCOUNT[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30251"
+msgid "[B][COLOR FF0099FF]ACTIONS[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30252"
+msgid "[B][COLOR FF0099FF]CACHE[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30253"
+msgid "[B][COLOR FF0099FF]QUALITY[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30254"
+msgid "[B][COLOR FF0099FF]SERIES/SORTING[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30255"
+msgid "[B][COLOR FF0099FF]TITLE[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30256"
+msgid "[B][COLOR FF0099FF]FANART[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30257"
+msgid "[B][COLOR FF0099FF]FREE-CONTENT[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30258"
+msgid "[B][COLOR FF0099FF]CERTIFICATE[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30259"
+msgid "[B][COLOR FF0099FF]WIDEVINE[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30260"
+msgid "[B][COLOR FF0099FF]SETTINGS[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30261"
+msgid "[B][COLOR FF0099FF]LOG[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30262"
+msgid "[B][COLOR FF0099FF]MEDIA[/COLOR][/B]"
+msgstr ""
+
+# empty strings from id 30263 to 30350
+# SETTINGS-DESCRIPTIONS
+
+msgctxt "#30351"
+msgid "* [COLOR yellow]For RTL+ Premium- and HD-content, a Premium-Account is required ![/COLOR] *"
+msgstr ""
+
+msgctxt "#30352"
+msgid "[B]The Account-License is valid until :[/B] ..."
+msgstr ""
+
+msgctxt "#30353"
+msgid "[B]Encryption of your Data :[/B] ..."
+msgstr ""
+
+msgctxt "#30354"
+msgid "[COLOR orange]This filter setting is based on the API default of the provider, especially under the heading: Season+Year filtering is not possible...[/COLOR][CR][COLOR chartreuse]For Premium-User this switch is without function ![/COLOR]"
+msgstr ""
+
+msgctxt "#30355"
+msgid "* [COLOR yellow]This function requires the '[/COLOR]service.cron.autobiblio[COLOR yellow]' ! [/COLOR]*"
+msgstr ""
+
+msgctxt "#30356"
+msgid "[COLOR orangered]Attention: The Actualisation-Period affects only newly added items...[/COLOR][CR][COLOR chartreuse]In order to delete old data, the entry must be deleted and newly added in '[/COLOR]service.cron.autobiblio[COLOR chartreuse]' ![/COLOR]"
+msgstr ""
+
+# empty strings from id 30357 to 30500
+# WARNING/INFORMATION-MESSAGES-OK
+# Entries - common.py (30501, 30502, 30503)
+# Entries - navigator.py (30504)
+# Entries - mediatools.py (30505)
+# Entries - references.py (30506, 30507)
+# Entries - utilities.py (30508)
+
+msgctxt "#30501"
+msgid "[COLOR orangered]ATTENTION : ... the required Addon *[/COLOR][COLOR yellow]{0:s}[/COLOR][COLOR orangered]* is NOT installed !!![/COLOR]"
+msgstr ""
+
+msgctxt "#30502"
+msgid "[COLOR orangered]ATTENTION : ... the required Addon *[/COLOR][COLOR yellow]{0:s}[/COLOR][COLOR orangered]* can NOT be activated automatically !!![/COLOR]"
+msgstr ""
+
+msgctxt "#30503"
+msgid "[COLOR orangered]ATTENTION : ... DELETE Addon Cache !!![/COLOR][CR]The complete Cache of [COLOR chartreuse]* RTLPLUS *[/COLOR] was deleted successfully !!!"
+msgstr ""
+
+msgctxt "#30504"
+msgid "[COLOR orangered]ATTENTION : ... This Video is only playable with a *Premium-Account* !!![/COLOR][CR]Please choose another video without premium labeling !!!"
+msgstr ""
+
+msgctxt "#30505"
+msgid "[COLOR orangered]ATTENTION : ... there is NO folder to save Media appointed ![/COLOR][CR]Please select the desired folder in the addon settings !!!"
+msgstr ""
+
+msgctxt "#30506"
+msgid "[COLOR orangered]ATTENTION : ... the Login-Data is defective and must be re-registered !!![/COLOR][CR][B][COLOR yellow]PLEASE ENTER THE REGISTRATION DATA AGAIN ![/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30507"
+msgid "[B]Do you want to encrypt your Login-Data for security ???[/B][CR][COLOR orange]* YES - I want encryption || No - I do not want encryption *[/COLOR]"
+msgstr ""
+
+msgctxt "#30508"
+msgid "[COLOR orangered]ATTENTION : ... The login process is aborted due to a malfunction !!![/COLOR][CR][B][COLOR yellow]THE REGISTRATION DATA HAS BEEN ENTERED 3 TIMES INCORRECT ![/COLOR][/B]"
+msgstr ""
+
+# empty strings from id 30509 to 30520
+# WARNING/INFORMATION-MESSAGES-NOTIFICATION
+
+msgctxt "#30521"
+msgid "RTLPLUS : [COLOR red]!!! {0:s}[/COLOR][COLOR blue]{1:s}[/COLOR][COLOR red] - ERROR !!![/COLOR]"
+msgstr ""
+
+msgctxt "#30522"
+msgid "[COLOR red]An error has occured, please check *LOG* ![/COLOR]"
+msgstr ""
+
+msgctxt "#30523"
+msgid "ERROR = [COLOR red]{0:s} ![/COLOR]"
+msgstr ""
+
+msgctxt "#30524"
+msgid "[COLOR orangered]This Series no longer exists in the Mediathek of RTL+ ![/COLOR]"
+msgstr ""
+
+msgctxt "#30525"
+msgid "[COLOR red]Unfortunately there are NO {0:s} :[/COLOR]"
+msgstr ""
+
+msgctxt "#30526"
+msgid "* [COLOR blue]To the respective search term[/COLOR] * at RTL+"
+msgstr ""
+
+msgctxt "#30527"
+msgid "* [COLOR blue]In the Category: {0:s}[/COLOR] * at RTL+"
+msgstr ""
+
+msgctxt "#30528"
+msgid "[COLOR chartreuse]* {0:s} successfull * ...[/COLOR]"
+msgstr ""
+
+msgctxt "#30529"
+msgid "[COLOR chartreuse]Logged in as *[/COLOR][COLOR blue] {0:s} [/COLOR][COLOR chartreuse]*[/COLOR]"
+msgstr ""
+
+msgctxt "#30530"
+msgid "[COLOR chartreuse]You can proceed now...[/COLOR]"
+msgstr ""
+
+msgctxt "#30532"
+msgid "NO Authorisation ..."
+msgstr ""
+
+msgctxt "#30533"
+msgid "[B][COLOR orangered]ATTENTION : ... This area requires a *Premium-Account* !!![/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30534"
+msgid "[B][COLOR orangered]ATTENTION : ... This program is only playable with a *Premium-Account* !!![/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30535"
+msgid "[COLOR red]Unfortunately NO suitable Video-Url found ![/COLOR]"
+msgstr ""
+
+msgctxt "#30536"
+msgid "[COLOR red]The transmitted *Dash-play-link* is BAD ![/COLOR]"
+msgstr ""
+
+msgctxt "#30537"
+msgid "My RTLPLUS - Favourites :"
+msgstr ""
+
+msgctxt "#30538"
+msgid "[B]≡ [COLOR blue]{0:s}[/COLOR] ≡ [COLOR lime]successfully added !!![/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30539"
+msgid "[B]≡ [COLOR blue]{0:s}[/COLOR] ≡ [COLOR orangered]has been deleted !!![/COLOR][/B]"
+msgstr ""
+
+# empty strings from id 30540 to 30560
+# Entries - default.py (30521, 30561)
+
+msgctxt "#30561"
+msgid "[COLOR orangered]'INPUSTREAM.ADAPTIVE' is required for this Addon to function correctly![/COLOR]"
+msgstr ""
+
+# empty strings from id 30562 to 30570
+# Entries - mediatools.py (30521, 30523, 30571, 30572)
+
+msgctxt "#30571"
+msgid "[COLOR lime]Added to RTLPLUS-Medialibrary :[/COLOR]"
+msgstr ""
+
+msgctxt "#30572"
+msgid "* [COLOR blue]{0:s}[/COLOR] | Actualisation every: [COLOR blue]{1:s} Hrs.[/COLOR] *"
+msgstr ""
+
+# empty strings from id 30573 to 30580
+# Entries - utilities.py (30521, 30523, 30581)
+
+msgctxt "#30581"
+msgid "[COLOR orangered]A TOKEN is required for this Addon to work![/COLOR]"
+msgstr ""
+
+# empty strings from id 30582 to 30600
+# PLUGIN-MAIN and SIDEMENU
+
+msgctxt "#30601"
+msgid "[B][COLOR chartreuse]★ My RTLPLUS Favourites ★[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30602"
+msgid "New broadcasts"
+msgstr ""
+
+msgctxt "#30603"
+msgid "Preview & Retrospect"
+msgstr ""
+
+msgctxt "#30604"
+msgid "Broadcasts sorted by station"
+msgstr ""
+
+msgctxt "#30605"
+msgid "Broadcasts from A-Z"
+msgstr ""
+
+msgctxt "#30606"
+msgid "Categories"
+msgstr ""
+
+msgctxt "#30607"
+msgid "Genres"
+msgstr ""
+
+msgctxt "#30608"
+msgid "Themes"
+msgstr ""
+
+msgctxt "#30609"
+msgid "Search ..."
+msgstr ""
+
+msgctxt "#30610"
+msgid "[COLOR chartreuse]♦ LIVESTREAMS ♦[/COLOR]"
+msgstr ""
+
+msgctxt "#30611"
+msgid "--- Cache delete --- [COLOR FF00FFFF](autom. Actualisation >> {0:s} Hours <<)[/COLOR]"
+msgstr ""
+
+msgctxt "#30612"
+msgid "RTLPLUS Settings"
+msgstr ""
+
+msgctxt "#30613"
+msgid "Inputstream Settings"
+msgstr ""
+
+# empty strings from id 30614 to 30620
+
+msgctxt "#30621"
+msgid "[COLOR chartreuse] *** (Logged in as >> {0:s} <<)[/COLOR]"
+msgstr ""
+
+msgctxt "#30622"
+msgid "[COLOR orange] ~~~ (!!! Client >> ANONYMOUS-USER << !!!)[/COLOR]"
+msgstr ""
+
+msgctxt "#30623"
+msgid "Pilot/Specials & More"
+msgstr ""
+
+msgctxt "#30624"
+msgid "[COLOR yellow]{0:s}[/COLOR]"
+msgstr ""
+
+msgctxt "#30625"
+msgid "[B][COLOR deepskyblue]Season {0:s} • Episode {1:s}[/COLOR][/B][CR]"
+msgstr ""
+
+msgctxt "#30626"
+msgid "[B][COLOR deepskyblue]Episode {0:s}[/COLOR][/B][CR]"
+msgstr ""
+
+msgctxt "#30627"
+msgid "Broadcastdate: [COLOR chartreuse]{0:s}[/COLOR][CR]"
+msgstr ""
+
+msgctxt "#30628"
+msgid "[COLOR chartreuse]  ({0:s})[/COLOR]"
+msgstr ""
+
+msgctxt "#30629"
+msgid "[COLOR skyblue]*** FREE to [/COLOR][COLOR orangered]{0:s}[/COLOR][COLOR skyblue] ***[/COLOR][CR][CR]"
+msgstr ""
+
+msgctxt "#30630"
+msgid "From Age {0:s}"
+msgstr ""
+
+msgctxt "#30631"
+msgid "without age restriction"
+msgstr ""
+
+msgctxt "#30632"
+msgid "Search on RTL+ ..."
+msgstr ""
+
+msgctxt "#30633"
+msgid "[COLOR orangered]To {0:s} o'clock[/COLOR]"
+msgstr ""
+
+msgctxt "#30634"
+msgid "[CR][CR]Afterwards:[CR][COLOR yellow]{0:s}[CR]{1:s} - {2:s}[/COLOR]"
+msgstr ""
+
+msgctxt "#30635"
+msgid "[COLOR lime]{0:s}:  [/COLOR]{1:s}"
+msgstr ""
+
+msgctxt "#30636"
+msgid "[COLOR lime]{0:s}:  [/COLOR]{1:s} {2:s}"
+msgstr ""
+
+# empty strings from id 30637 to 30650
+
+msgctxt "#30651"
+msgid "[B][COLOR chartreuse]Add to RTLPLUS-Favourites ...[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30652"
+msgid "[B][COLOR orange]... Remove from RTLPLUS-Favourites[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30653"
+msgid "[B][COLOR cyan]Save to RTLPLUS-Library ...[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30654"
+msgid "[COLOR yellow]Add to Playlist-RTLPLUS ...[/COLOR][/B]"
+msgstr ""
+
+# empty strings from id 30655 to 30670
+# Entries - config.py
+
+msgctxt "#30671"
+msgid "[COLOR yellow]Enter E-Mail Adress[/COLOR]"
+msgstr ""
+
+msgctxt "#30672"
+msgid "[COLOR yellow]Enter your password[/COLOR]"
+msgstr ""
+
+# empty strings from id 30673 to 32100
+# Days and Months
+
+msgctxt "#32101"
+msgid "Mon"
+msgstr ""
+
+msgctxt "#32102"
+msgid "Tue"
+msgstr ""
+
+msgctxt "#32103"
+msgid "Wed"
+msgstr ""
+
+msgctxt "#32104"
+msgid "Thu"
+msgstr ""
+
+msgctxt "#32105"
+msgid "Fri"
+msgstr ""
+
+msgctxt "#32106"
+msgid "Sat"
+msgstr ""
+
+msgctxt "#32107"
+msgid "Sun"
+msgstr ""
+
+msgctxt "#32201"
+msgid "Mar"
+msgstr ""
+
+msgctxt "#32202"
+msgid "May"
+msgstr ""
+
+msgctxt "#32203"
+msgid "Oct"
+msgstr ""
+
+msgctxt "#32204"
+msgid "Dec"
+msgstr ""

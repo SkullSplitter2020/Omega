@@ -1,0 +1,94 @@
+﻿
+[B]Version 1.2.2+matrix.1  (26.05.2024)[/B]
+- fixed: Vereinzelt tritt beim autom. Aktualisieren der KODI-Bibliothek für gespeicherte Episoden/Filme dieses Addons ein OS-Fehler auf (Folder not found)
+
+[B]Version 1.2.1+matrix.1  (29.03.2024)[/B]
+- fixed: Vereinzelt sind in der KODI-Bibliothek gespeicherte Episoden/Filme dieses Addons nicht abspielbar (Playlist Player: skipping unplayable item)
+
+[B]Version 1.2.0+matrix.1  (08.03.2024)[/B]
+- fixed: Alle VOD-STREAMS sind nicht mehr abspielbar (Error: 404 - Not Found)
+- fixed: Fehler beim hinzufügen von Serien/Filmen zur KODI-Bibliothek (NameError: name 'trnslation' is not defined)
+
+[B]Version 1.1.9+matrix.1  (02.01.2024)[/B]
+- fixed: Der Account-Login wird vom Addon NICHT akzeptiert wenn die Original-Daten im 'Base64-Format' vorliegen
+- comment: * Wenn der Addon-User ein Original-Passwort im 'Base64-Format' nutzt und bei der Eingabe die Verschlüsselung seiner Daten ablehnt, setzte das Addon allerdings voraus, dass bei dieser Konstellation die Login-Daten nicht im 'Base64-Format' vorliegen dürfen ! *
+
+[B]Version 1.1.8+matrix.1  (29.12.2023)[/B]
+- fixed: In seltenen Fällen wird trotz erfolgreichem Login-Prozess später ein Fehler ausgegeben
+
+[B]Version 1.1.7+matrix.1  (19.11.2023)[/B]
+- fixed: Sämtliche Streams der Medienbibliothek- und innerhalb des Addons-RTLPLUS sind nicht abspielbar (es werden jetzt wieder die Streams der API.v.3 verwendet)
+- changed: m3u-Liste zur Integration der Livestreams des Addons in den 'PVR IPTV Simple Client' (diverse Anpassungen)
+- optimized: Pop-ups beim Start des Addons und unnötige Meldungen entfernt (An- oder Abmeldung eines Accounts jetzt direkt in den 'settings' des Addons)
+- removed: Rubrik = Eventstreams (keine Quelle in der API.v.3 vorhanden)
+- comment: * Ich kann KEINE Gewähr dafür übernehmen, dass alle Daten der API.v.3 mit den offiziellen Daten der aktuellen Web- oder Androidversion von RTL+ übereinstimmen - deshalb wurde von mir bisher die API.v.1 des Anbieters genutzt (leider nicht mehr verfügbar) !!! *
+- comment: * Benutzer der Bibliothekfunktion des Addons-RTLPLUS müssen erst die nächste Auffrischung der gespeicherten Sendungen abwarten, um Diese wiedergeben zu können !!! *
+
+[B]Version 1.1.6+matrix.1  (07.09.2023)[/B]
+- fixed: VOD-STREAMS für Premium-User werden nur in SD-Qualität abgespielt
+- optimized: Serienname, Staffel/Folge und Sendetermin neu angeordnet und übersichtlicher gestaltet
+- added: Bibliothek = Thumb für Staffeln und Fanart für Episoden
+
+[B]Version 1.1.5+matrix.1  (25.06.2023)[/B]
+- added: Premium(Bezahl)-Inhalte für 'FreeUser' ausblenden (settings)
+
+[B]Version 1.1.4+matrix.1  (09.06.2023)[/B]
+- fixed: In Kodi Nexus/Omega funktioniert die Sortierung der Episoden nach Datum nicht
+
+[B]Version 1.1.3+matrix.1  (04.06.2023)[/B]
+- fixed: LIVESTREAMS lassen sich nicht abspielen (StreamUrls verändert)
+- fixed: m3u-Liste zur Integration der Livestreams des Addons in den 'PVR IPTV Simple Client' (neue StreamUrls)
+
+[B]Version 1.1.2+matrix.1  (24.02.2023)[/B]
+- fixed: LIVESTREAMS bleiben nach kurzer Zeit hängen (StreamUrls verändert)
+- fixed: m3u-Liste zur Integration der Livestreams des Addons in den 'PVR IPTV Simple Client' (neue StreamUrls)
+- fixed: Eventstreams laufen nicht mit der Einstellung: 'Standard' - Qualität (wenn der SD-Stream nicht vorhanden ist wird jetzt automatisch der HD-Stream wiedergegeben)
+- comment: *Die Qualität der Streams lässt sich auch in 'Inputstream.Adaptive herunterregeln !*
+
+[B]Version 1.1.1+matrix.1  (18.02.2023)[/B]
+- optimized: Loginfunktion überarbeitet, um Fehleingaben des Nutzers zu vermeiden
+- optimized: Account über Funktionstaste in den 'settings' löschen/erneuern ohne erzwungenen Neustart von KODI
+
+[B]Version 1.1.0+matrix.1  (07.11.2022)[/B]
+- fixed: m3u-Liste zur Integration der Livestreams des Addons in den 'PVR IPTV Simple Client' (neue Parameter)
+- fixed: Ein paar VOD-Streams der API.v.3 lassen sich NICHT abspielen (daher jetzt Wechsel zu den VOD-Streams der API.v.1, die auch im Browser verwendet werden)
+- comment: *Leider kommt es in letzter Zeit zu Abspielproblemen bei nur einigen wenigen VOD-Streams der API.v.3, dabei festzustellen ist dass sich die StreamUrls der API.v.3 vs. API.v.1 (neuere Variante) im Vergleich zu früher stark unterscheiden !*
+- comment: *Daher werden die VOD- und Event-Streams dieses Addons ab jetzt von der API.v.1 ausgelesen (thx @Pati für die Vorlage in seinem "plugin.video.tvnow.de"), die Metadaten kommen weiterhin von der API.v.3 (da sie dort ausführlicher sind).*
+- comment: *Der einzige Nachteil der sich durch diese Veränderung ergibt ist, dass der "Gesehen Status" sämtlicher Sendungen bis zum diesem Update (durch Anpassung der Pfade) verloren geht - SORRY !!!*
+
+[B]Version 1.0.9+matrix.1  (31.07.2022)[/B]
+- fixed: Bilder der 'Meine RTLPLUS-Favoriten' werden doppelt encodiert und teilweise nicht angezeigt (Umlaute z.B. 'ö' zu falsch='%25C3%25B6' richtig='%C3%B6')
+- fixed: Streamqualität für Live & VoD lässt sich teilweise nicht herunterregeln (Premium settings)
+
+[B]Version 1.0.8+matrix.1  (20.07.2022)[/B]
+- fixed: LIVESTREAMS lassen sich nicht abspielen (Widivine-LicenseUrl+StreamUrls verändert)
+- fixed: m3u-Liste zur Integration der Livestreams des Addons in den 'PVR IPTV Simple Client' (neue StreamUrls)
+- added: 'Premiumkennzeichnung' der Serien-/Filmordner auf Basis des Eintrags 'hasFreeEpisodes' in der API (nur FreeUser)
+- added: Anzeige-Enddatum der Verfügbarkeit von Videos für FreeUser (nur FreeUser)
+- added: Anpassungen an Änderungen von KODI-Nexus
+
+[B]Version 1.0.7+matrix.1  (13.02.2022)[/B]
+- fixed: LIVESTREAMS lassen sich erneut nicht abspielen (Unable to lookup host: 'blivenowusodashnowlive-a.akamaized.net')
+- fixed: m3u-Liste zur Integration der Livestreams des Addons in den 'PVR IPTV Simple Client' (neue StreamUrls)
+
+[B]Version 1.0.6+matrix.1  (30.12.2021)[/B]
+- fixed: LIVESTREAMS lassen sich erneut nicht abspielen (Error 403)
+- added: Unterordner Series/Movies für Einträge der KODI-Bibliothek erstellen (settings)
+
+[B]Version 1.0.5+matrix.1  (17.10.2021)[/B]
+- fixed: LIVESTREAMS lassen sich nicht abspielen (Error 403)
+
+[B]Version 1.0.4+matrix.1  (01.10.2021)[/B]
+- fixed: Suche öffnet sich nicht (falsche Zuordnung)
+
+[B]Version 1.0.3+matrix.1  (30.09.2021)[/B]
+- fixed: Eventstreams werden nicht abgespielt (Error Type: type 'exceptions.UnboundLocalError')
+
+[B]Version 1.0.2+matrix.1  (30.09.2021)[/B]
+- added: Anzeige der Seasons entweder nur als 'Jahr' (old-default) oder autom. Wechsel zwischen 'Jahr' und 'Staffel' (new) auswählbar in den 'Settings'
+- added: Rubik = Eventstreams (Soccer)
+- added: m3u-Liste zur Integration der Livestreams des Addons in den 'PVR IPTV Simple Client' (zu finden unter: plugin.video.rtlgroup.de -> resources -> data)
+- optimized: FSK-Anzeige für ab 0 Jahren = ohne Altersbeschränkung
+
+[B]Version 1.0.1+matrix.1  (09.07.2021)[/B] by realvito
+- Initial Release und Rework von RTLPLUS (old=TVNOW) auf Basis der API.v.3
