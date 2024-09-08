@@ -1064,7 +1064,7 @@ Added support for Kodi v19 (Matrix)
   </assets>
   <news />
 </extension>
-</addon><addon id="plugin.program.sKullswizard" name="[B][COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Wizard[/COLOR][/B]" version="1.8.0" provider-name="[COLOR indianred]sKulls[/COLOR] [COLOR gold]inc.[/COLOR]">
+</addon><addon id="plugin.program.sKullswizard" name="[B][COLOR indianred]sKulls[/COLOR] [COLOR gold]Fusion[/COLOR] [COLOR indianred]Wizard[/COLOR][/B]" version="1.9.0" provider-name="[COLOR indianred]sKulls[/COLOR] [COLOR gold]inc.[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
