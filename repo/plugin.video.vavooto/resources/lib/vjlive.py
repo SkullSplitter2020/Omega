@@ -42,11 +42,8 @@ def filterout(name):
 	elif "DMAX" in name: name = "DMAX"
 	elif "DISNEY" in name: name = "DISNEY CHANNEL"
 	elif "KINOWELT" in name: name = "KINOWELT"
-	elif "MDR" in name:
-		if "TH" in name: name = "MDR THUERINGEN"
-		elif "ANHALT" in name: name = "MDR SACHSEN ANHALT"
-		elif "SACHSEN" in name: name = "MDR SACHSEN"
-		else: name = "MDR"
+	elif "MDR" in name: name = "MDR"
+	elif "NDR" in name: name = "NDR"
 	elif "RBB" in name: name = "RBB"
 	elif "SERVUS" in name: name = "SERVUS TV"
 	elif "RTL" in name:
